@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+        //hiroki commit
         //hirotaka commit
     override func viewDidLoad() {
         super.viewDidLoad()
