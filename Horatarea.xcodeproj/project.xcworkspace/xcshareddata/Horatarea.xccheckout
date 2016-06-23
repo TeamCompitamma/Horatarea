@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>EBECFA12-5D4E-4A38-AD28-44206125BE1D</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Horatarea</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>AD108F39470C7A9F2FEE6663ED0A3C0FC219CCB9</key>
 		<string>https://github.com/TeamCompitamma/Horatarea.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Horatarea.xcodeproj/project.xcworkspace</string>
+	<string>Horatarea.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>AD108F39470C7A9F2FEE6663ED0A3C0FC219CCB9</key>
