@@ -9,10 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-        //airi commit
-        //yurina commit
-        //hiroki commit
-        //hirotaka commit
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
