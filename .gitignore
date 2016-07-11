@@ -4,6 +4,16 @@ Horatarea.xcodeproj/project.xcworkspace/xcuserdata/e125705.xcuserdatad/UserInter
 *.xcuserstate
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+*.plist
+
+*.xcscheme
+=======
+*.xcscheme
+
+*.plist
+>>>>>>> hiroki
+=======
 *.xcscheme
 
 *.plist
@@ -12,3 +22,4 @@ Horatarea.xcodeproj/project.xcworkspace/xcuserdata/e125705.xcuserdatad/UserInter
 
 *.xcscheme
 >>>>>>> master
+>>>>>>> hiroki
