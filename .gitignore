@@ -3,6 +3,12 @@ Horatarea.xcodeproj/project.xcworkspace/xcuserdata/e125705.xcuserdatad/UserInter
 
 *.xcuserstate
 
+<<<<<<< HEAD
 *.plist
 
 *.xcscheme
+=======
+*.xcscheme
+
+*.plist
+>>>>>>> hiroki
