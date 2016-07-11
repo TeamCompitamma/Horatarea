@@ -1,2 +1,8 @@
 
 Horatarea.xcodeproj/project.xcworkspace/xcuserdata/e125705.xcuserdatad/UserInterfaceState.xcuserstate
+
+*.xcuserstate
+
+*.xcscheme
+
+*.plist
