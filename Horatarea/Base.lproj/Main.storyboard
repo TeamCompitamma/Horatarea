@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -10,17 +10,140 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Horatarea" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="mkc-FQ-Ls2"/>
+                        <viewControllerLayoutGuide type="bottom" id="zAu-pj-GoF"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Horatarea" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffG-Jk-xec">
+                                <rect key="frame" x="64" y="104" width="192" height="53"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="44"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ffG-Jk-xec" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="X4q-GH-dMa"/>
+                            <constraint firstItem="ffG-Jk-xec" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-153" id="a7T-Nr-0Ii"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <segue destination="KJW-Hv-dWp" kind="modal" identifier="start" modalTransitionStyle="coverVertical" id="ga5-il-xNh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="162.66666666666666" y="376.77333333333331"/>
+        </scene>
+        <!--入力-->
+        <scene sceneID="jG7-84-fgP">
+            <objects>
+                <viewController id="XwM-8h-azh" customClass="InputViewController" customModule="Horatarea" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ql4-Hs-k3j"/>
+                        <viewControllerLayoutGuide type="bottom" id="Lgj-r3-AK9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XEX-e9-NUe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m6X-tn-84K">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="o7G-10-whR"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="入力画面" id="Zys-Sg-RzF"/>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EWM-Lh-x1G">
+                                <rect key="frame" x="25" y="72" width="271" height="94"/>
+                                <color key="backgroundColor" red="0.31607593008410051" green="1" blue="0.30926339723980811" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" spellCheckingType="yes"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="締切日" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fHm-1M-vkW">
+                                <rect key="frame" x="20" y="174" width="280" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.93601531953834272" blue="0.40004693912264822" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="m6X-tn-84K" firstAttribute="centerX" secondItem="XEX-e9-NUe" secondAttribute="centerX" id="I5H-Z7-ba8"/>
+                            <constraint firstItem="EWM-Lh-x1G" firstAttribute="centerX" secondItem="XEX-e9-NUe" secondAttribute="centerX" id="Mkh-5c-pQP"/>
+                            <constraint firstItem="m6X-tn-84K" firstAttribute="width" secondItem="XEX-e9-NUe" secondAttribute="width" id="OM1-aF-fsV"/>
+                            <constraint firstItem="fHm-1M-vkW" firstAttribute="centerX" secondItem="XEX-e9-NUe" secondAttribute="centerX" id="YoA-2n-FxF"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="入力" image="addimage.png" id="bHt-Dj-qPl"/>
+                    <connections>
+                        <outlet property="dateText" destination="fHm-1M-vkW" id="xnE-2G-wYg"/>
+                        <outlet property="inputText" destination="EWM-Lh-x1G" id="cFe-at-PDt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="we9-JP-R95" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1000" y="689"/>
+        </scene>
+        <!--ToDo-->
+        <scene sceneID="LaA-KQ-VkB">
+            <objects>
+                <viewController id="yQD-ql-f4N" customClass="TodoViewController" customModule="Horatarea" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Vkm-hA-Tmf"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZkZ-pX-rUZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3II-4d-lS6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O5C-xL-5Rd">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="lw8-9x-VTl"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="ToDo" id="MEn-Pa-D5U"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="O5C-xL-5Rd" firstAttribute="width" secondItem="3II-4d-lS6" secondAttribute="width" id="Kus-fj-cmM"/>
+                            <constraint firstItem="O5C-xL-5Rd" firstAttribute="centerX" secondItem="3II-4d-lS6" secondAttribute="centerX" id="z9m-OZ-eS2"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="ToDo" image="todoimage.png" id="HKb-OF-qQT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bqy-vN-6bQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1000" y="63.426666666666669"/>
+        </scene>
+        <!--Main Tab Controller-->
+        <scene sceneID="Cj9-N5-TZ7">
+            <objects>
+                <tabBarController id="KJW-Hv-dWp" customClass="MainTabController" customModule="Horatarea" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="NPu-Kr-cHv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="yQD-ql-f4N" kind="relationship" relationship="viewControllers" id="P2Z-hG-Q3t"/>
+                        <segue destination="XwM-8h-azh" kind="relationship" relationship="viewControllers" id="ZnB-EL-REj"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qYr-Wa-hcs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="562.66666666666663" y="376.77333333333331"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="addimage.png" width="30" height="30"/>
+        <image name="todoimage.png" width="30" height="30"/>
+    </resources>
 </document>
