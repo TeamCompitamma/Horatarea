@@ -16,11 +16,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: #selector(self.slideview), userInfo: nil, repeats: false)
+        Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(self.slideview), userInfo: nil, repeats: false)
     }
     
     func slideview(){
-        performSegueWithIdentifier("start", sender: nil)
+        performSegue(withIdentifier: "start", sender: nil)
     }
     
     
