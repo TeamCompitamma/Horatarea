@@ -22,6 +22,9 @@
 		82B561941D89CA1F00DA19E3 /* playimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 82B561921D89CA1F00DA19E3 /* playimage.png */; };
 		82B561951D89CA1F00DA19E3 /* studyimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 82B561931D89CA1F00DA19E3 /* studyimage.png */; };
 		82B561971D89CCA400DA19E3 /* workimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 82B561961D89CCA400DA19E3 /* workimage.png */; };
+		D1ADF5E6E02B32E57E8F94C9 /* Pods_Horatarea.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C058DF79AA705AA14DC2C6B9 /* Pods_Horatarea.framework */; };
+		EBA96DC60D34967FA67AE9B3 /* Pods_HoratareaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F2D34BC613FE196CF6CCFF /* Pods_HoratareaTests.framework */; };
+		EC66D9DF608363142090A451 /* Pods_HoratareaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9536E8A1C7C21C047B7B4F /* Pods_HoratareaUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C9536E8A1C7C21C047B7B4F /* Pods_HoratareaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoratareaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10981C3609E882AFE1C47D3A /* Pods-HoratareaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoratareaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HoratareaUITests/Pods-HoratareaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CEF5BB601AA42B0AC97E9FC /* Pods-HoratareaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoratareaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HoratareaTests/Pods-HoratareaTests.release.xcconfig"; sourceTree = "<group>"; };
+		527AE8C14204E62E6C6700C7 /* Pods-Horatarea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Horatarea.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Horatarea/Pods-Horatarea.debug.xcconfig"; sourceTree = "<group>"; };
+		56196EF2ADB3FDEFBB621C5B /* Pods-HoratareaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoratareaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HoratareaTests/Pods-HoratareaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6926CAC91D1C0807009C5239 /* Horatarea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horatarea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6926CACC1D1C0807009C5239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6926CACE1D1C0807009C5239 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +63,7 @@
 		6926CAE81D1C0808009C5239 /* HoratareaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoratareaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6926CAEC1D1C0808009C5239 /* HoratareaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoratareaUITests.swift; sourceTree = "<group>"; };
 		6926CAEE1D1C0808009C5239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71F2D34BC613FE196CF6CCFF /* Pods_HoratareaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoratareaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8201E8081D88284300495EF0 /* InputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		8201E80C1D88290E00495EF0 /* TodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 		8201E80F1D882B4400495EF0 /* addimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addimage.png; sourceTree = "<group>"; };
@@ -63,6 +72,9 @@
 		82B561921D89CA1F00DA19E3 /* playimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playimage.png; sourceTree = "<group>"; };
 		82B561931D89CA1F00DA19E3 /* studyimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = studyimage.png; sourceTree = "<group>"; };
 		82B561961D89CCA400DA19E3 /* workimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = workimage.png; sourceTree = "<group>"; };
+		C058DF79AA705AA14DC2C6B9 /* Pods_Horatarea.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Horatarea.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1DAF30165B4B845A0D851C8 /* Pods-HoratareaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoratareaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HoratareaUITests/Pods-HoratareaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E5988B7052111E1804A3556F /* Pods-Horatarea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Horatarea.release.xcconfig"; path = "Pods/Target Support Files/Pods-Horatarea/Pods-Horatarea.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1ADF5E6E02B32E57E8F94C9 /* Pods_Horatarea.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBA96DC60D34967FA67AE9B3 /* Pods_HoratareaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC66D9DF608363142090A451 /* Pods_HoratareaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20F18265398C0D46F5648818 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C058DF79AA705AA14DC2C6B9 /* Pods_Horatarea.framework */,
+				71F2D34BC613FE196CF6CCFF /* Pods_HoratareaTests.framework */,
+				0C9536E8A1C7C21C047B7B4F /* Pods_HoratareaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		638D004EB1B97CAE926D2997 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				527AE8C14204E62E6C6700C7 /* Pods-Horatarea.debug.xcconfig */,
+				E5988B7052111E1804A3556F /* Pods-Horatarea.release.xcconfig */,
+				56196EF2ADB3FDEFBB621C5B /* Pods-HoratareaTests.debug.xcconfig */,
+				2CEF5BB601AA42B0AC97E9FC /* Pods-HoratareaTests.release.xcconfig */,
+				10981C3609E882AFE1C47D3A /* Pods-HoratareaUITests.debug.xcconfig */,
+				E1DAF30165B4B845A0D851C8 /* Pods-HoratareaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6926CAC01D1C0807009C5239 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +135,8 @@
 				6926CAE01D1C0808009C5239 /* HoratareaTests */,
 				6926CAEB1D1C0808009C5239 /* HoratareaUITests */,
 				6926CACA1D1C0807009C5239 /* Products */,
+				638D004EB1B97CAE926D2997 /* Pods */,
+				20F18265398C0D46F5648818 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6926CAF11D1C0808009C5239 /* Build configuration list for PBXNativeTarget "Horatarea" */;
 			buildPhases = (
+				80924CD93F8026581F1FF97F /* [CP] Check Pods Manifest.lock */,
 				6926CAC51D1C0807009C5239 /* Sources */,
 				6926CAC61D1C0807009C5239 /* Frameworks */,
 				6926CAC71D1C0807009C5239 /* Resources */,
+				6E07F1EB1172E8087C2335B2 /* [CP] Embed Pods Frameworks */,
+				98467DA98F9A78A0EC64F657 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6926CAF41D1C0808009C5239 /* Build configuration list for PBXNativeTarget "HoratareaTests" */;
 			buildPhases = (
+				BDB90A400C417D6E4BD2D004 /* [CP] Check Pods Manifest.lock */,
 				6926CAD91D1C0808009C5239 /* Sources */,
 				6926CADA1D1C0808009C5239 /* Frameworks */,
 				6926CADB1D1C0808009C5239 /* Resources */,
+				8F2A8CAB9FA1940F54559046 /* [CP] Embed Pods Frameworks */,
+				13BCE4A32D94D4418386EC66 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6926CAF71D1C0808009C5239 /* Build configuration list for PBXNativeTarget "HoratareaUITests" */;
 			buildPhases = (
+				784FA10BF58AB4FDF71E20D3 /* [CP] Check Pods Manifest.lock */,
 				6926CAE41D1C0808009C5239 /* Sources */,
 				6926CAE51D1C0808009C5239 /* Frameworks */,
 				6926CAE61D1C0808009C5239 /* Resources */,
+				F4B3FFF2DA5371DDF618BADA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -290,6 +338,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13BCE4A32D94D4418386EC66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoratareaTests/Pods-HoratareaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E07F1EB1172E8087C2335B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Horatarea/Pods-Horatarea-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		784FA10BF58AB4FDF71E20D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		80924CD93F8026581F1FF97F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F2A8CAB9FA1940F54559046 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoratareaTests/Pods-HoratareaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98467DA98F9A78A0EC64F657 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Horatarea/Pods-Horatarea-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDB90A400C417D6E4BD2D004 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4B3FFF2DA5371DDF618BADA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoratareaUITests/Pods-HoratareaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6926CAC51D1C0807009C5239 /* Sources */ = {
@@ -443,62 +614,69 @@
 		};
 		6926CAF21D1C0808009C5239 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 527AE8C14204E62E6C6700C7 /* Pods-Horatarea.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Horatarea/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"PODS_CONFIGURATION_BUILD_DIR[arch=*]" = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PRODUCT_BUNDLE_IDENTIFIER = Edu.myself.Horatarea;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		6926CAF31D1C0808009C5239 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5988B7052111E1804A3556F /* Pods-Horatarea.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Horatarea/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"PODS_CONFIGURATION_BUILD_DIR[arch=*]" = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PRODUCT_BUNDLE_IDENTIFIER = Edu.myself.Horatarea;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
 		6926CAF51D1C0808009C5239 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56196EF2ADB3FDEFBB621C5B /* Pods-HoratareaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HoratareaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Edu.myself.HoratareaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Horatarea.app/Horatarea";
 			};
 			name = Debug;
 		};
 		6926CAF61D1C0808009C5239 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CEF5BB601AA42B0AC97E9FC /* Pods-HoratareaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HoratareaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Edu.myself.HoratareaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Horatarea.app/Horatarea";
 			};
 			name = Release;
 		};
 		6926CAF81D1C0808009C5239 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10981C3609E882AFE1C47D3A /* Pods-HoratareaUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = HoratareaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Edu.myself.HoratareaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = Horatarea;
 				USES_XCTRUNNER = YES;
 			};
@@ -506,12 +684,13 @@
 		};
 		6926CAF91D1C0808009C5239 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1DAF30165B4B845A0D851C8 /* Pods-HoratareaUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = HoratareaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Edu.myself.HoratareaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = Horatarea;
 				USES_XCTRUNNER = YES;
 			};

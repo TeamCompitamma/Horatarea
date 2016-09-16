@@ -12,7 +12,7 @@ import UIKit
 class TodoViewController: UIViewController,UITableViewDelegate,UITableViewDataSource{
     
     @IBOutlet var myTable : UITableView!
-    var getTodoUserdefults : UserDefaults!
+    var getTodoUserdefults : NSUserDefaults!
     var getTodoArray : Array<String> = Array<String>()
     var getdateArray : Array<String> = Array<String>()
     var getcategoryArray : Array<String> = Array<String>()
@@ -29,24 +29,27 @@ class TodoViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         myTable.delegate = self
         self.view.addSubview(myTable)
         
-        getTodoUserdefults = UserDefaults.standard
+        getTodoUserdefults = NSUserDefaults.standardUserDefaults()
         
-        if getTodoUserdefults.array(forKey: "input") != nil{
-            getTodoArray = getTodoUserdefults.array(forKey: "input") as! Array<String>
-            getdateArray = getTodoUserdefults.array(forKey: "date") as! Array<String>
-            getcategoryArray = getTodoUserdefults.array(forKey: "category") as! Array<String>
-            getworkgaugevalue = getTodoUserdefults.array(forKey: "workvalue") as! Array<Int>
+        if getTodoUserdefults.arrayForKey("input") != nil{
+            getTodoArray = getTodoUserdefults.arrayForKey("input") as! Array<String>
+            getdateArray = getTodoUserdefults.arrayForKey("date") as! Array<String>
+            getcategoryArray = getTodoUserdefults.arrayForKey("category") as! Array<String>
+            getworkgaugevalue = getTodoUserdefults.arrayForKey("workvalue") as! Array<Int>
         }
     }
     
     //cellの総数を返すメソッド
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return getTodoArray.count
     }
 
     //cellにデータを挿入
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Customcell") as! CustomTableViewCell
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("Customcell") as! CustomTableViewCell
+        
+        cell.layer.cornerRadius = 10.0
+        cell.layer.borderWidth = 1.0
         
         cell.todolabel.text = getTodoArray[(indexPath as NSIndexPath).row]
         cell.datelabel.text = getdateArray[(indexPath as NSIndexPath).row]
