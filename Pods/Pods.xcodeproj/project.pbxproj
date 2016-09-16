@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EC5D14845A5FC0A43D69E8A364CAA9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		6BDB48578539155717948BC0B7AFD45A /* Pods-HoratareaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DAADD894F09CB8D8BEC3DC82EC9CBBC /* Pods-HoratareaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		897972805831CA02B490E45D0C4E9562 /* Pods-HoratareaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CD0B8EA963D9E0207BE86EFCABC13A /* Pods-HoratareaUITests-dummy.m */; };
+		914D05504580CF81622CF75A486A4AB8 /* Pods-HoratareaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C07BF7C77B7C47A6F8116188E6443A /* Pods-HoratareaTests-dummy.m */; };
+		A18D3795C32437A0DA4DCC80E7FCFEEB /* Pods-HoratareaUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2194E079EBD4400C6B0A9E4FEBB5BF24 /* Pods-HoratareaUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C47E6A1963ECB2449E7C04C89B8E4F79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		CD887BD369B5B471AA50F6F2EE1971B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D21B8768FBFB066B9B0ADB804CD1D3C0 /* Pods-Horatarea-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4337CBB51658CA1DD457BB47CF73393 /* Pods-Horatarea-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8EC7972A4029965024DB457509091F0 /* Pods-Horatarea-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9759676B4B916E4DC53E29307BB01A /* Pods-Horatarea-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1026021153269F6A93A14FCF5EC003BF /* Pods-HoratareaUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HoratareaUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1C9C8B33A2EE1BD51A60ABC49147F867 /* Pods_HoratareaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoratareaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2194E079EBD4400C6B0A9E4FEBB5BF24 /* Pods-HoratareaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HoratareaUITests-umbrella.h"; sourceTree = "<group>"; };
+		27C50B1143C979ED32F1A221D8792ECF /* Pods-HoratareaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HoratareaTests.modulemap"; sourceTree = "<group>"; };
+		307A03EE644561BEF8B919E8193144C4 /* Pods-Horatarea.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Horatarea.modulemap"; sourceTree = "<group>"; };
+		38802411A111F2AEA193D6A3E20057F2 /* Pods-HoratareaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HoratareaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		396AAAACE7E07EBDBBFC09745B68ABA1 /* Pods-HoratareaTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HoratareaTests-resources.sh"; sourceTree = "<group>"; };
+		456E0FB4C081D0C3B5D172E93C3B60B4 /* Pods-HoratareaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HoratareaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4708C2DADA86420C7D39B9DEDA71D3E0 /* Pods-Horatarea-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Horatarea-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C9759676B4B916E4DC53E29307BB01A /* Pods-Horatarea-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Horatarea-dummy.m"; sourceTree = "<group>"; };
+		6DAADD894F09CB8D8BEC3DC82EC9CBBC /* Pods-HoratareaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HoratareaTests-umbrella.h"; sourceTree = "<group>"; };
+		6E3B9B6D55754D35567CD1ADB04011AE /* Pods-Horatarea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Horatarea.release.xcconfig"; sourceTree = "<group>"; };
+		70AA0A8DC0DD88683FFB623AC4E5FF60 /* Pods-HoratareaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HoratareaUITests.modulemap"; sourceTree = "<group>"; };
+		71F4495DFAB621BE530BBC3D017787D4 /* Pods-Horatarea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Horatarea.debug.xcconfig"; sourceTree = "<group>"; };
+		77B38EB8BAEB0577AD89D067E43ADD90 /* Pods-Horatarea-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Horatarea-resources.sh"; sourceTree = "<group>"; };
+		7AF33A1E49BC88743858413A88F55F4A /* Pods-HoratareaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HoratareaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7EF15A9771E86005A57C7DAB0DCA9C7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8325496593ED30565F740B6254201D3E /* Pods_HoratareaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoratareaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CD0B8EA963D9E0207BE86EFCABC13A /* Pods-HoratareaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HoratareaUITests-dummy.m"; sourceTree = "<group>"; };
+		8F6E1C48BF1CF97E22E498B88C0A9903 /* Pods-HoratareaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HoratareaTests.release.xcconfig"; sourceTree = "<group>"; };
+		92EA5776AE998CA800E4868BFD0B75BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B6677974495F6E169FF36F2E4BE37B3 /* Pods-HoratareaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HoratareaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A694CCE59E21E75DC11154DFC09A9F14 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B61E860C39183BBD1FD3BD680455A8FA /* Pods_Horatarea.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Horatarea.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DFCE3F962DD988D531955F27B837E2DC /* Pods-HoratareaTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HoratareaTests-frameworks.sh"; sourceTree = "<group>"; };
+		E4337CBB51658CA1DD457BB47CF73393 /* Pods-Horatarea-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Horatarea-umbrella.h"; sourceTree = "<group>"; };
+		E5621E01E3F6979E6411B86E89180400 /* Pods-Horatarea-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Horatarea-acknowledgements.plist"; sourceTree = "<group>"; };
+		E57A7D0F02CD9B5757049B90DB9503C4 /* Pods-HoratareaUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HoratareaUITests-resources.sh"; sourceTree = "<group>"; };
+		E5F9BAA3108FBF2694AC2440ED471381 /* Pods-HoratareaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HoratareaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6BFEDF0B958998CDBEE0F064DA6B060 /* Pods-HoratareaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HoratareaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E74BD18AC311CE332F48B19FCB904F7C /* Pods-Horatarea-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Horatarea-frameworks.sh"; sourceTree = "<group>"; };
+		E921A8F9D14361508D6D1D08AF934506 /* Pods-HoratareaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HoratareaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F6C07BF7C77B7C47A6F8116188E6443A /* Pods-HoratareaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HoratareaTests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49D9D5588BF4D39846BE5D5A0206DD81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC5D14845A5FC0A43D69E8A364CAA9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0227A1475B7AD125ED6E6EF740E786A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47E6A1963ECB2449E7C04C89B8E4F79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C9C941E2EBA805A6838F505E084784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD887BD369B5B471AA50F6F2EE1971B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A569F63BADA4EC96823D9D55400498A /* Pods-Horatarea */ = {
+			isa = PBXGroup;
+			children = (
+				7EF15A9771E86005A57C7DAB0DCA9C7E /* Info.plist */,
+				307A03EE644561BEF8B919E8193144C4 /* Pods-Horatarea.modulemap */,
+				4708C2DADA86420C7D39B9DEDA71D3E0 /* Pods-Horatarea-acknowledgements.markdown */,
+				E5621E01E3F6979E6411B86E89180400 /* Pods-Horatarea-acknowledgements.plist */,
+				6C9759676B4B916E4DC53E29307BB01A /* Pods-Horatarea-dummy.m */,
+				E74BD18AC311CE332F48B19FCB904F7C /* Pods-Horatarea-frameworks.sh */,
+				77B38EB8BAEB0577AD89D067E43ADD90 /* Pods-Horatarea-resources.sh */,
+				E4337CBB51658CA1DD457BB47CF73393 /* Pods-Horatarea-umbrella.h */,
+				71F4495DFAB621BE530BBC3D017787D4 /* Pods-Horatarea.debug.xcconfig */,
+				6E3B9B6D55754D35567CD1ADB04011AE /* Pods-Horatarea.release.xcconfig */,
+			);
+			name = "Pods-Horatarea";
+			path = "Target Support Files/Pods-Horatarea";
+			sourceTree = "<group>";
+		};
+		31B763C59B82CB72A8209B71849C2631 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A569F63BADA4EC96823D9D55400498A /* Pods-Horatarea */,
+				95D60C71BFA83BEE88C1C0EC5682500E /* Pods-HoratareaTests */,
+				536C6C54FDEA8491833660293F4389D6 /* Pods-HoratareaUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		32199B3CAD4A1DB64C83E6202B1587C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B61E860C39183BBD1FD3BD680455A8FA /* Pods_Horatarea.framework */,
+				8325496593ED30565F740B6254201D3E /* Pods_HoratareaTests.framework */,
+				1C9C8B33A2EE1BD51A60ABC49147F867 /* Pods_HoratareaUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		536C6C54FDEA8491833660293F4389D6 /* Pods-HoratareaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92EA5776AE998CA800E4868BFD0B75BA /* Info.plist */,
+				70AA0A8DC0DD88683FFB623AC4E5FF60 /* Pods-HoratareaUITests.modulemap */,
+				E921A8F9D14361508D6D1D08AF934506 /* Pods-HoratareaUITests-acknowledgements.markdown */,
+				E6BFEDF0B958998CDBEE0F064DA6B060 /* Pods-HoratareaUITests-acknowledgements.plist */,
+				85CD0B8EA963D9E0207BE86EFCABC13A /* Pods-HoratareaUITests-dummy.m */,
+				1026021153269F6A93A14FCF5EC003BF /* Pods-HoratareaUITests-frameworks.sh */,
+				E57A7D0F02CD9B5757049B90DB9503C4 /* Pods-HoratareaUITests-resources.sh */,
+				2194E079EBD4400C6B0A9E4FEBB5BF24 /* Pods-HoratareaUITests-umbrella.h */,
+				E5F9BAA3108FBF2694AC2440ED471381 /* Pods-HoratareaUITests.debug.xcconfig */,
+				456E0FB4C081D0C3B5D172E93C3B60B4 /* Pods-HoratareaUITests.release.xcconfig */,
+			);
+			name = "Pods-HoratareaUITests";
+			path = "Target Support Files/Pods-HoratareaUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				32199B3CAD4A1DB64C83E6202B1587C5 /* Products */,
+				31B763C59B82CB72A8209B71849C2631 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		95D60C71BFA83BEE88C1C0EC5682500E /* Pods-HoratareaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A694CCE59E21E75DC11154DFC09A9F14 /* Info.plist */,
+				27C50B1143C979ED32F1A221D8792ECF /* Pods-HoratareaTests.modulemap */,
+				9B6677974495F6E169FF36F2E4BE37B3 /* Pods-HoratareaTests-acknowledgements.markdown */,
+				7AF33A1E49BC88743858413A88F55F4A /* Pods-HoratareaTests-acknowledgements.plist */,
+				F6C07BF7C77B7C47A6F8116188E6443A /* Pods-HoratareaTests-dummy.m */,
+				DFCE3F962DD988D531955F27B837E2DC /* Pods-HoratareaTests-frameworks.sh */,
+				396AAAACE7E07EBDBBFC09745B68ABA1 /* Pods-HoratareaTests-resources.sh */,
+				6DAADD894F09CB8D8BEC3DC82EC9CBBC /* Pods-HoratareaTests-umbrella.h */,
+				38802411A111F2AEA193D6A3E20057F2 /* Pods-HoratareaTests.debug.xcconfig */,
+				8F6E1C48BF1CF97E22E498B88C0A9903 /* Pods-HoratareaTests.release.xcconfig */,
+			);
+			name = "Pods-HoratareaTests";
+			path = "Target Support Files/Pods-HoratareaTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		85D789E54965FA2B0A62A831188C1219 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDB48578539155717948BC0B7AFD45A /* Pods-HoratareaTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80CC1034BAF2E6CAB4398CE3C5AD2AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18D3795C32437A0DA4DCC80E7FCFEEB /* Pods-HoratareaUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA82B0AEAD277AB9D0F7086FF9291BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21B8768FBFB066B9B0ADB804CD1D3C0 /* Pods-Horatarea-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A166817F7650DC2808C5E07A595E972 /* Pods-HoratareaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A0F15BF12CF483FAB9BBCC7024738D6 /* Build configuration list for PBXNativeTarget "Pods-HoratareaUITests" */;
+			buildPhases = (
+				BAA661F728460D4392EA424ECE9988B5 /* Sources */,
+				F8C9C941E2EBA805A6838F505E084784 /* Frameworks */,
+				D80CC1034BAF2E6CAB4398CE3C5AD2AD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HoratareaUITests";
+			productName = "Pods-HoratareaUITests";
+			productReference = 1C9C8B33A2EE1BD51A60ABC49147F867 /* Pods_HoratareaUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D681F8BA1F3AECA8A3AFC697A80B64E9 /* Pods-Horatarea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F33FEB335F4A717FCB7AB3367EC58783 /* Build configuration list for PBXNativeTarget "Pods-Horatarea" */;
+			buildPhases = (
+				8819080FF6D0E2BF5888461351552BA9 /* Sources */,
+				49D9D5588BF4D39846BE5D5A0206DD81 /* Frameworks */,
+				FEA82B0AEAD277AB9D0F7086FF9291BB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Horatarea";
+			productName = "Pods-Horatarea";
+			productReference = B61E860C39183BBD1FD3BD680455A8FA /* Pods_Horatarea.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB8CCB44C41FF4DF9F50B8736648519A /* Pods-HoratareaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31F001D23DD098D328FD420D21F7771B /* Build configuration list for PBXNativeTarget "Pods-HoratareaTests" */;
+			buildPhases = (
+				B4BBD7FAB172AA1D596B06CA47D36A97 /* Sources */,
+				F0227A1475B7AD125ED6E6EF740E786A /* Frameworks */,
+				85D789E54965FA2B0A62A831188C1219 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HoratareaTests";
+			productName = "Pods-HoratareaTests";
+			productReference = 8325496593ED30565F740B6254201D3E /* Pods_HoratareaTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 32199B3CAD4A1DB64C83E6202B1587C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D681F8BA1F3AECA8A3AFC697A80B64E9 /* Pods-Horatarea */,
+				DB8CCB44C41FF4DF9F50B8736648519A /* Pods-HoratareaTests */,
+				4A166817F7650DC2808C5E07A595E972 /* Pods-HoratareaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8819080FF6D0E2BF5888461351552BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8EC7972A4029965024DB457509091F0 /* Pods-Horatarea-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4BBD7FAB172AA1D596B06CA47D36A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914D05504580CF81622CF75A486A4AB8 /* Pods-HoratareaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA661F728460D4392EA424ECE9988B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897972805831CA02B490E45D0C4E9562 /* Pods-HoratareaUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03D0B8CDB4263F760A418818EF9F36D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F4495DFAB621BE530BBC3D017787D4 /* Pods-Horatarea.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Horatarea/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Horatarea/Pods-Horatarea.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Horatarea;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		361FBD6C211FE78456062437E1EC950D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 456E0FB4C081D0C3B5D172E93C3B60B4 /* Pods-HoratareaUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HoratareaUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HoratareaUITests/Pods-HoratareaUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HoratareaUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46EE69AF77A148AF92860F097B5698B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		789CCD779862F4372E0253B1ECDDB988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38802411A111F2AEA193D6A3E20057F2 /* Pods-HoratareaTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HoratareaTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HoratareaTests/Pods-HoratareaTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HoratareaTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A156876A8824526ED495550DF098FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87BA30DCD25B7AFA1952EF8DF28FA09B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E3B9B6D55754D35567CD1ADB04011AE /* Pods-Horatarea.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Horatarea/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Horatarea/Pods-Horatarea.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Horatarea;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A956E8B7019414E5D8E84FA43A59B861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F9BAA3108FBF2694AC2440ED471381 /* Pods-HoratareaUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HoratareaUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HoratareaUITests/Pods-HoratareaUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HoratareaUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9C66A1DEB8A969AE52086F2A479604D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F6E1C48BF1CF97E22E498B88C0A9903 /* Pods-HoratareaTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HoratareaTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HoratareaTests/Pods-HoratareaTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HoratareaTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EE69AF77A148AF92860F097B5698B1 /* Debug */,
+				7A156876A8824526ED495550DF098FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31F001D23DD098D328FD420D21F7771B /* Build configuration list for PBXNativeTarget "Pods-HoratareaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789CCD779862F4372E0253B1ECDDB988 /* Debug */,
+				D9C66A1DEB8A969AE52086F2A479604D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A0F15BF12CF483FAB9BBCC7024738D6 /* Build configuration list for PBXNativeTarget "Pods-HoratareaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A956E8B7019414E5D8E84FA43A59B861 /* Debug */,
+				361FBD6C211FE78456062437E1EC950D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F33FEB335F4A717FCB7AB3367EC58783 /* Build configuration list for PBXNativeTarget "Pods-Horatarea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D0B8CDB4263F760A418818EF9F36D1 /* Debug */,
+				87BA30DCD25B7AFA1952EF8DF28FA09B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
